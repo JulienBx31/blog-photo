@@ -1,8 +1,4 @@
-import React from 'react'
-function Firebase() {
-    return(
-        <h1>Firebase</h1>
-    )
-
-}
-export default Firebase
+import FirebaseContext from './context';
+import Firebase from './firebase';
+export default Firebase;
+export { FirebaseContext };
